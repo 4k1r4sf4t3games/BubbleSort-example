@@ -68,7 +68,7 @@ public class MainActivity extends AppCompatActivity {
         Random random = new Random();
         for (int i=0; i<array.length; i++){
             int arrayIndex = i;
-            array[i]=random.nextInt(r);
+            array[i]=random.nextInt(r+1);
         }
     }
 

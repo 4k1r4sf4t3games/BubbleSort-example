@@ -12,40 +12,40 @@
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Give n"
+            android:layout_margin="5dp"
+            android:text="n zufällige ganze Zahlen"
             android:textSize="25sp"
-            android:textStyle="bold"
-            android:layout_margin="5dp"/>
+            android:textStyle="bold" />
 
         <EditText
+            android:id="@+id/input_n_EditText"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            android:hint="hier n eingeben"
             android:inputType="number"
-            android:hint="type your number here"
-            android:id="@+id/input_n_EditText"
-            android:textStyle="italic"/>
+            android:textStyle="italic" />
 
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Give r"
+            android:layout_margin="5dp"
+            android:text="r=zufallszahl zwischen 0undr"
             android:textSize="25sp"
-            android:textStyle="bold"
-            android:layout_margin="5dp"/>
+            android:textStyle="bold" />
 
         <EditText
+            android:id="@+id/input_r_EditText"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            android:hint="hier r eingeben"
             android:inputType="number"
-            android:hint="type your number here"
-            android:id="@+id/input_r_EditText"
-            android:textStyle="italic"/>
+            android:textStyle="italic" />
 
         <Button
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="confirm"
-            android:onClick="confirm"/>
+            android:onClick="confirm"
+            android:text="Enter" />
 
         <View
             android:layout_width="match_parent"
@@ -55,10 +55,10 @@
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Initial Array"
+            android:layout_margin="5dp"
+            android:text="1 generierte Zahlenreihe"
             android:textSize="25sp"
-            android:textStyle="bold"
-            android:layout_margin="5dp"/>
+            android:textStyle="bold" />
 
         <TextView
             android:layout_width="wrap_content"
@@ -74,10 +74,10 @@
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Numbers shuffled"
+            android:layout_margin="5dp"
+            android:text="Zahlenreihe gemixt"
             android:textSize="25sp"
-            android:textStyle="bold"
-            android:layout_margin="5dp"/>
+            android:textStyle="bold" />
 
         <TextView
             android:layout_width="wrap_content"
@@ -85,15 +85,11 @@
             android:id="@+id/randomed_numbers"/>
 
 
-
-
-
-
         <Button
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="make random"
-            android:onClick="doRandom"/>
+            android:onClick="doRandom"
+            android:text="Yates-Shuffle anwenden" />
 
         <View
             android:layout_width="match_parent"
@@ -103,10 +99,10 @@
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Sorted with BubbleSort"
+            android:layout_margin="5dp"
+            android:text="Zahlenreihe BubbleSortiert"
             android:textSize="25sp"
-            android:textStyle="bold"
-            android:layout_margin="5dp"/>
+            android:textStyle="bold" />
 
         <TextView
             android:layout_width="wrap_content"
@@ -117,8 +113,8 @@
         <Button
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="do bubblesort"
-            android:onClick="doBubble"/>
+            android:onClick="doBubble"
+            android:text="do bubblesoBubbleSortieren" />
 
         <View
             android:layout_width="match_parent"
@@ -128,28 +124,28 @@
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Save/Load operations"
+            android:layout_margin="5dp"
+            android:text="Save/Load opDatei Speichern/laden"
             android:textSize="25sp"
-            android:textStyle="bold"
-            android:layout_margin="5dp"/>
+            android:textStyle="bold" />
 
         <Button
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="save random numbers"
-            android:onClick="save"/>
+            android:onClick="save"
+            android:text="Speiche Datei" />
 
         <Button
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="load random numbers"
-            android:onClick="load"/>
+            android:onClick="load"
+            android:text="Lade Datei" />
 
         <Button
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="clear the file"
-            android:onClick="clear"/>
+            android:onClick="clear"
+            android:text="clear the fDatei Formatieren" />
 
 
 
